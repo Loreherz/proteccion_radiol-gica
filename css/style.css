@@ -13,21 +13,12 @@ header {
 }
 
 /* NAV */
-nav {
-    background: #328cc1;
-    padding: 12px;
-    text-align: center;
-}
-
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: 600;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ffdd57;
 }
 
 /* HERO */
