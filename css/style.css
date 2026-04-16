@@ -50,11 +50,9 @@ nav a:hover {
         rgba(50, 140, 193, 0.85)
     ),
     url('../img/radiologica.jpg');
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -64,7 +62,7 @@ nav a:hover {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 2.2rem;
-    text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero p {
@@ -72,7 +70,7 @@ nav a:hover {
     margin: 0 auto 28px auto;
     font-size: 1.1rem;
     line-height: 1.6;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 /* BOTÓN */
