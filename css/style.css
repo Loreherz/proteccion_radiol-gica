@@ -8,8 +8,8 @@ body {
 header {
     background: #0b3c5d;
     color: white;
-    padding: 30px 20px;
     text-align: center;
+    padding: 32px 20px;
 }
 
 header h1 {
@@ -19,19 +19,19 @@ header h1 {
 
 header p {
     margin-top: 10px;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
 nav {
     background: #328cc1;
-    padding: 15px 10px;
+    padding: 14px 10px;
     text-align: center;
 }
 
 nav a {
     color: white;
-    margin: 0 12px;
     text-decoration: none;
+    margin: 0 12px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -41,37 +41,39 @@ nav a:hover {
 }
 
 .hero {
-    padding: 80px 20px;
-    text-align: center;
     background: linear-gradient(to right, #0b3c5d, #328cc1);
     color: white;
+    text-align: center;
+    padding: 85px 20px;
 }
 
 .hero h2 {
     margin-top: 0;
-    font-size: 2.2rem;
     margin-bottom: 15px;
+    font-size: 2.2rem;
 }
 
 .hero p {
+    max-width: 700px;
+    margin: 0 auto 28px auto;
     font-size: 1.1rem;
-    margin-bottom: 25px;
+    line-height: 1.6;
 }
 
 .btn {
     display: inline-block;
     background: white;
     color: #0b3c5d;
-    padding: 12px 24px;
-    border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
 }
 
 .about {
@@ -87,9 +89,9 @@ nav a:hover {
 }
 
 .about p {
-    font-size: 1rem;
-    line-height: 1.7;
     color: #444;
+    line-height: 1.7;
+    font-size: 1rem;
 }
 
 .cards {
@@ -102,7 +104,7 @@ nav a:hover {
 .card {
     background: white;
     border-radius: 16px;
-    padding: 30px 20px;
+    padding: 30px 22px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -114,18 +116,20 @@ nav a:hover {
 }
 
 .card a {
+    display: block;
     text-decoration: none;
     color: inherit;
-    display: block;
 }
 
 .card h3 {
     margin-top: 0;
+    margin-bottom: 14px;
     color: #0b3c5d;
     font-size: 1.3rem;
 }
 
 .card p {
+    margin: 0;
     color: #555;
     line-height: 1.5;
 }
@@ -134,9 +138,32 @@ footer {
     background: #0b3c5d;
     color: white;
     text-align: center;
-    padding: 25px 20px;
+    padding: 24px 20px;
 }
 
 footer p {
     margin: 6px 0;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 10px;
+    }
+
+    .cards {
+        padding: 30px 20px 50px 20px;
+    }
 }
